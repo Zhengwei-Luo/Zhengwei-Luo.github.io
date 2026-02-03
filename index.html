@@ -140,6 +140,96 @@ author_profile: true
   padding-bottom: 10px;
   border-bottom: 2px solid #e9ecef;
 }
+
+/* Publications styles */
+.publications {
+  margin-top: 20px;
+}
+
+.publication-card {
+  background: #f8f9fa;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-left: 3px solid #6a5acd;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publication-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.publication-title {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+.publication-authors {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0 0 8px 0;
+}
+
+.publication-authors .highlight {
+  font-weight: 600;
+  color: #333;
+}
+
+.publication-venue {
+  font-size: 0.85em;
+  color: #6a5acd;
+  font-style: italic;
+  margin: 0 0 10px 0;
+}
+
+.publication-venue i {
+  margin-right: 5px;
+}
+
+.publication-abstract {
+  font-size: 0.85em;
+  color: #666;
+  line-height: 1.6;
+  margin: 12px 0 0 0;
+  padding: 12px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #e9ecef;
+}
+
+.publication-abstract summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: #555;
+}
+
+.publication-abstract summary:hover {
+  color: #6a5acd;
+}
+
+.publication-abstract p {
+  margin: 10px 0 0 0;
+}
+
+.publication-badges {
+  margin-top: 12px;
+}
+
+.publication-badge {
+  display: inline-block;
+  background: #e8e4f8;
+  color: #5a4aad;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  margin-right: 5px;
+  margin-top: 5px;
+}
 </style>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -231,6 +321,34 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
         <span class="timeline-badge">Renewable Energy</span>
       </div>
     </div>
+  </div>
+
+</div>
+
+<br>
+
+<h2 class="section-title"><i class="fas fa-book"></i> Publications</h2>
+
+<div class="publications">
+  
+  <div class="publication-card">
+    <h3 class="publication-title">Application of Real Time Digital Simulation in Modeling Wind Turbines with Reduced and Full Converter Schemes</h3>
+    <p class="publication-authors">
+      K. Protsenko, B. Badrzadeh, P.F. Mayer, and <span class="highlight">Z. Luo</span>
+    </p>
+    <p class="publication-venue">
+      <i class="fas fa-calendar-alt"></i> October 2011 &bull; 
+      <i class="fas fa-globe"></i> 10th International Workshop on Large-scale Integration of Wind Power into Power Systems
+    </p>
+    <div class="publication-badges">
+      <span class="publication-badge">Wind Energy</span>
+      <span class="publication-badge">Real-Time Simulation</span>
+      <span class="publication-badge">Power Systems</span>
+    </div>
+    <details class="publication-abstract">
+      <summary><i class="fas fa-align-left"></i> Abstract</summary>
+      <p>This paper presents the application of a real-time digital simulation program for wind turbine modeling of a doubly-fed induction generator (type 3) and a fully-converted permanent magnet synchronous generator (type 4). Vestas type 3 and type 4, 3 MW turbines are taken as representative for the two turbine types, respectively. The paper outlines the assumptions applied to derive the models, highlights the limitations imposed by the use of a real time digital simulation program, and discusses the implementation of both types of turbine models. The validation of both models against electromagnetic time domain simulation results obtained from PSCAD is shown, with results providing a good match which gives confidence in the future application of such real time models for wind power plant protection relay coordination.</p>
+    </details>
   </div>
 
 </div>
