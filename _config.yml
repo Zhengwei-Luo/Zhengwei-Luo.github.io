@@ -33,6 +33,7 @@ whitelist:
 author:
   name   : "Zhengwei Luo"
   avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Builder; Leader in Growth Strategy & Business Operations"
   location : "Seattle, WA"
   links:
     - label: "Email"
